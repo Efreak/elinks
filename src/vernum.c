@@ -8,6 +8,4 @@
 
 #include "vernum.h"
 
-unsigned char *build_date = __DATE__;
-unsigned char *build_time = __TIME__;
 unsigned char *build_id = BUILD_ID;

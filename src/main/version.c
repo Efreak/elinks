@@ -100,8 +100,6 @@ get_dyn_full_version(struct terminal *term, int more)
 	}
 
 	add_char_to_string(&string, '\n');
-	add_format_to_string(&string, _("Built on %s %s", term),
-			     build_date, build_time);
 
 	if (more) {
 		add_to_string(&string, "\n\n");
