@@ -185,7 +185,7 @@ static union option_info uri_rewrite_options[] = {
 	INIT_OPT_SMART_PREFIX("dict", "http://dictionary.reference.com/search?q=%s"),
 	INIT_OPT_SMART_PREFIX("thes", "http://thesaurus.reference.com/search?q=%s"),
 	INIT_OPT_SMART_PREFIX("a", "http://www.acronymfinder.com/af-query.asp?String=exact&Acronym=%s"),
-	INIT_OPT_SMART_PREFIX("imdb", "http://www.imdb.com/find?q=%s"),
+	INIT_OPT_SMART_PREFIX("imdb", "http://www.imdb.com/find?s=all&q=%s"),
 	INIT_OPT_SMART_PREFIX("mw", "http://www.m-w.com/cgi-bin/dictionary?book=Dictionary&va=%s"),
 	INIT_OPT_SMART_PREFIX("mwt", "http://www.m-w.com/cgi-bin/thesaurus?book=Thesaurus&va=%s"),
 	INIT_OPT_SMART_PREFIX("wiki", "http://en.wikipedia.org/w/wiki.phtml?search=%s"),
