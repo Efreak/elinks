@@ -521,7 +521,7 @@ static union option_info config_options_info[] = {
 		"cache instead of asking the server.")),
 
 	INIT_OPT_BOOL("document.cache", N_("Ignore cache-control info from server"),
-		"ignore_cache_control", 0, 1,
+		"ignore_cache_control", 0, 0,
 		N_("Ignore Cache-Control and Pragma server headers. "
 		"When set, the document is cached even with 'Cache-Control: "
 		"no-cache'.")),
